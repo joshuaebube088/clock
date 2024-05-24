@@ -7,9 +7,9 @@ This project is a simple live clock web application that displays the current ti
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
+- [Usage](#usage)
 
 ## Demo
 
@@ -53,7 +53,6 @@ This project is a simple live clock web application that displays the current ti
 - [Demo](#demo)
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -81,48 +80,6 @@ To get a local copy up and running, follow these simple steps:
     ```sh
     cd live-clock
     ```
-
-## Usage
-
-Open the `index.html` file in your web browser to view the live clock.
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Clock</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap');
-
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #000;
-            margin: 0;
-        }
-        #clock {
-            font-family: 'Orbitron', sans-serif;
-            font-size: 5em;
-            color: #ff0000;
-        }
-    </style>
-</head>
-<body>
-    <div id="clock"></div>
-
-    <script>
-        setInterval(function() {
-            const now = new Date();
-            document.getElementById('clock').textContent = now.toLocaleTimeString();
-        }, 1000);
-    </script>
-</body>
-</html>
-
 ### Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
