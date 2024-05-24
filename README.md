@@ -122,6 +122,7 @@ Open the `index.html` file in your web browser to view the live clock.
     </script>
 </body>
 </html>
+
 ###Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
