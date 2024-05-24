@@ -123,7 +123,7 @@ Open the `index.html` file in your web browser to view the live clock.
 </body>
 </html>
 
-###Contributing
+### Contributing
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 Fork the Project
@@ -132,10 +132,8 @@ Commit your Changes (git commit -m 'Add some AmazingFeature')
 Push to the Branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
-##License
+## License
 Distributed under the MIT License. See LICENSE for more information.
 
-##Contact
+## Contact
 Joshua Ebube - joshuaebube088@gmail.com
-
-Project Link: [Project link](https://github.com/joshuaebube088/clock.git)
